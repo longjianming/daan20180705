@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="js/jquery-2.1.1.js"></script>
+</head>
+<body>
+    <script>
+        var n=[1,2,9,120];
+        var m=[3,5,6,9];
+        var c= m.concat(n);
+
+        function sort(arr){
+            for(var j=0;j<arr.length-1;j++){
+                //两两比较，如果前一个比后一个大，则交换位置。
+                for(var i=0;i<arr.length-1-j;i++){
+                    if(arr[i]>arr[i+1]){
+                        var temp = arr[i];
+                        arr[i] = arr[i+1];
+                        arr[i+1] = temp;
+                    }
+                }
+            }
+        }
+        sort(c);
+        var leng= c.length;
+        var p=leng%2;
+        if(p==0){
+            var jg=(c[leng/2-1]+c[leng/2])/2;
+            console.log(jg);
+        }else{
+            var jg=Math.floor(leng/2)+1;
+            console.log(jg);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title></title>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/media.css"/>
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/easing.1.41.js"></script>
+    <script src="js/fastclick.js"></script>
+    <!--[if IE]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/main.js"></script>
+</head>
+<body class="bgf5">
+    <div class="platform-header">
+        <h1 class="logo3"><a href="#"><img src="images/logo3.png" alt=""/></a></h1>
+        <div class="platform-header-con">
+            <div class="menu2">
+                <ul class="clear">
+                    <li class="active"><a href="#">首页</a></li>
+                    <li><a href="#">通信专业服务</a></li>
+                    <li><a href="#">建筑专业服务</a></li>
+                </ul>
+            </div>
+            <div class="denglu">
+                <a href="#">登录</a>
+                <span>丨</span>
+                <a href="#">注册</a>
+            </div>
+        </div>
+        <div id="menu-handler2" class="menu-handler">
+            <span class="burger burger-1 trans"></span>
+            <span class="burger burger-2 trans-fast"></span>
+            <span class="burger burger-3 trans"></span>
+        </div>
+    </div>
+    <div class="h100"></div>
+    <div class="cehua relative clear">
+        <div  class="menu3 scrollBar">
+            <div class="menu3-warp">
+                <ul class="menu3-list">
+                    <li class="active">
+                        <a class="menu3-yi" href="javascript:;">
+                            <img class="img-show img" src="images/yewu4.png" alt=""/>
+                            <img class="img-hide img" src="images/yewu4-1.png" alt=""/>
+                            设计管理
+                            <div class="menu3-yi-btn"></div>
+                        </a>
+                        <div class="menu3-er">
+                            <a class="active" href="#">设计管理策划</a>
+                            <a href="#">工程勘察</a>
+                            <a href="#">工程设计</a>
+                            <a href="#">管理评估</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="menu3-yi" href="javascript:;">
+                            <img class="img-show img" src="images/yewu3.png" alt=""/>
+                            <img class="img-hide img" src="images/yewu3-1.png" alt=""/>
+                            安全管理
+                            <div class="menu3-yi-btn"></div>
+                        </a>
+                        <div class="menu3-er">
+                            <a href="#">设计管理策划</a>
+                            <a href="#">工程勘察</a>
+                            <a href="#">工程设计</a>
+                            <a href="#">管理评估</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="menu3-yi" href="javascript:;">
+                            <img class="img-show img" src="images/yewu13.png" alt=""/>
+                            <img class="img-hide img" src="images/yewu13-1.png" alt=""/>
+                            资产转固
+                            <div class="menu3-yi-btn"></div>
+                        </a>
+                        <div class="menu3-er">
+                            <a href="#">设计管理策划</a>
+                            <a href="#">工程勘察</a>
+                            <a href="#">工程设计</a>
+                            <a href="#">管理评估</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="menu3-yi" href="javascript:;">
+                            <img class="img-show img" src="images/yewu14.png" alt=""/>
+                            <img class="img-hide img" src="images/yewu14-1.png" alt=""/>
+                            物资管理
+                            <div class="menu3-yi-btn"></div>
+                        </a>
+                        <div class="menu3-er">
+                            <a href="#">设计管理策划</a>
+                            <a href="#">工程勘察</a>
+                            <a href="#">工程设计</a>
+                            <a href="#">管理评估</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="menu3-yi" href="javascript:;">
+                            <img class="img-show img" src="images/yewu15.png" alt=""/>
+                            <img class="img-hide img" src="images/yewu15-1.png" alt=""/>
+                            原物料管理
+                            <div class="menu3-yi-btn"></div>
+                        </a>
+                        <div class="menu3-er">
+                            <a href="#">设计管理策划</a>
+                            <a href="#">工程勘察</a>
+                            <a href="#">工程设计</a>
+                            <a href="#">管理评估</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="menu3-yi" href="javascript:;">
+                            <img class="img-show img" src="images/yewu16.png" alt=""/>
+                            <img class="img-hide img" src="images/yewu16-1.png" alt=""/>
+                            验收管理
+                            <div class="menu3-yi-btn"></div>
+                        </a>
+                        <div class="menu3-er">
+                            <a href="#">设计管理策划</a>
+                            <a href="#">工程勘察</a>
+                            <a href="#">工程设计</a>
+                            <a href="#">管理评估</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="fl cehua-con">
+            <div class="cehua-con-top">
+                <h4>设计管理策划</h4>
+                <div class="cehua-con-tops">
+                    <p>公司利用智能化项目管理平台手段加强对设计管理工作，使设计文件满足工程技术、经济指标，设计进度满足设计任务书要求、力争一次通过设计会审。使设计文件能指导监理和施工，达到保证工程质量、控制、进度和安全文明施工的目的。</p>
+                    <p>其设计管理有从收到单项设计任务书开始、到工程勘察、施工图设计、工程会审、设计管理评估几大方面内容。</p>
+                </div>
+            </div>
+            <div class="cehua-con-bot clear">
+                <div class="fwnr-box fl">
+                    <div class="gybzk">
+                        <h5 class="cehua-h5 cehua-h5-2">工艺标准库</h5>
+                        <div class="bgfff border-e1 gybzk-list">
+                            <ul>
+                                <li>
+                                    <a class="gybzk-yi" href="javascript:;">通信专业服务</a>
+                                    <div class="gybzk-er-box">
+                                        <a href="#"><div class="arrow"></div>通信管道</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clk">
+                        <h5 class="cehua-h5">材料库</h5>
+                        <div class="bgfff border-e1 clk-box scrollBar">
+                            <div class="clk-list">
+                                <a class="clk-yi active" href="javascript:;"><div class="arrow"></div>1 - 器材检验</a>
+                                <div class="clk-er-box">
+                                    <div class="clk-er-box-list">
+                                        <a class="clk-er active" href="javascript:;"><div class="arrow"></div>1.1 - 材料品种、规格、型号、数量及外观检查</a>
+                                        <div class="clk-san-box">
+                                            <div class="clk-san-list">
+                                                <a class="clk-san" href="javascript:;">1.1.1 - 水泥</a>
+                                                <div class="clk-si-box">
+                                                    <div class="clk-si-cotrol clear">
+                                                        <a class="active" href="javascript:;">工艺标准详情</a>
+                                                        <a href="javascript:;">工艺标准信息</a>
+                                                    </div>
+                                                    <div class="clk-si-tab">
+                                                        <div class="clk-si-page active">
+                                                            <table>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td colspan="2"><span class="clk-weg">工作项标准：</span>塑料管扩配件</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><span class="clk-weg">目录编码：</span>1.1.5</td>
+                                                                        <td><span class="clk-weg">所属专业：</span>通信管道</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <div class="clk-si-page">
+                                                            <table>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td colspan="2"><span class="clk-weg">工作项标准：</span>塑料管扩配件</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><span class="clk-weg">目录编码：</span>1.1.5</td>
+                                                                    <td><span class="clk-weg">所属专业：</span>通信管道</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="clk-san-list">
+                                                <a class="clk-san" href="javascript:;">1.1.4 - 砖</a>
+                                                <div class="clk-si-box">
+                                                    <div class="clk-si-cotrol clear">
+                                                        <a class="active" href="javascript:;">工艺标准详情</a>
+                                                        <a href="javascript:;">工艺标准信息</a>
+                                                    </div>
+                                                    <div class="clk-si-tab">
+                                                        <div class="clk-si-page active">
+                                                            <table>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td colspan="2"><span class="clk-weg">工作项标准：</span>塑料管扩配件</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><span class="clk-weg">目录编码：</span>1.1.5</td>
+                                                                    <td><span class="clk-weg">所属专业：</span>通信管道</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <div class="clk-si-page">
+                                                            <table>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td colspan="2"><span class="clk-weg">工作项标准：</span>塑料管扩配件</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><span class="clk-weg">目录编码：</span>1.1.5</td>
+                                                                    <td><span class="clk-weg">所属专业：</span>通信管道</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="clk-san-list">
+                                                <a class="clk-san" href="javascript:;">1.1.5 - 塑料管扩配件</a>
+                                                <div class="clk-si-box">
+                                                    <div class="clk-si-cotrol clear">
+                                                        <a class="active" href="javascript:;">工艺标准详情</a>
+                                                        <a href="javascript:;">工艺标准信息</a>
+                                                    </div>
+                                                    <div class="clk-si-tab">
+                                                        <div class="clk-si-page active">
+                                                            <table>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td colspan="2"><span class="clk-weg">工作项标准：</span>塑料管扩配件</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><span class="clk-weg">目录编码：</span>1.1.5</td>
+                                                                    <td><span class="clk-weg">所属专业：</span>通信管道</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <div class="clk-si-page">
+                                                            <table>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td colspan="2"><span class="clk-weg">工作项标准：</span>塑料管扩配件</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><span class="clk-weg">目录编码：</span>1.1.5</td>
+                                                                    <td><span class="clk-weg">所属专业：</span>通信管道</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="clk-san-list">
+                                                <a class="clk-san" href="javascript:;">1.1.6 - 井盖、井框</a>
+                                                <div class="clk-si-box">
+                                                    <div class="clk-si-cotrol clear">
+                                                        <a class="active" href="javascript:;">工艺标准详情</a>
+                                                        <a href="javascript:;">工艺标准信息</a>
+                                                    </div>
+                                                    <div class="clk-si-tab">
+                                                        <div class="clk-si-page active">
+                                                            <table>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td colspan="2"><span class="clk-weg">工作项标准：</span>塑料管扩配件</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><span class="clk-weg">目录编码：</span>1.1.5</td>
+                                                                    <td><span class="clk-weg">所属专业：</span>通信管道</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <div class="clk-si-page">
+                                                            <table>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td colspan="2"><span class="clk-weg">工作项标准：</span>塑料管扩配件</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><span class="clk-weg">目录编码：</span>1.1.5</td>
+                                                                    <td><span class="clk-weg">所属专业：</span>通信管道</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="clk-san-list">
+                                                <a class="clk-san" href="javascript:;">1.1.7 - 钢材、钢管与铁件</a>
+                                                <div class="clk-si-box">
+                                                    <div class="clk-si-cotrol clear">
+                                                        <a class="active" href="javascript:;">工艺标准详情</a>
+                                                        <a href="javascript:;">工艺标准信息</a>
+                                                    </div>
+                                                    <div class="clk-si-tab">
+                                                        <div class="clk-si-page active">
+                                                            <table>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td colspan="2"><span class="clk-weg">工作项标准：</span>塑料管扩配件</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><span class="clk-weg">目录编码：</span>1.1.5</td>
+                                                                    <td><span class="clk-weg">所属专业：</span>通信管道</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <div class="clk-si-page">
+                                                            <table>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td colspan="2"><span class="clk-weg">工作项标准：</span>塑料管扩配件</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><span class="clk-weg">目录编码：</span>1.1.5</td>
+                                                                    <td><span class="clk-weg">所属专业：</span>通信管道</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clk-er-box-list">
+                                        <a class="clk-er active" href="javascript:;"><div class="arrow"></div>2.1 - 材料品种、规格、型号、数量及外观检查</a>
+                                        <div class="clk-san-box">
+                                            <div class="clk-san-list">
+                                                <a class="clk-san" href="javascript:;">1.1.1 - 水泥</a>
+                                                <div class="clk-si-box">
+                                                    <div class="clk-si-cotrol clear">
+                                                        <a class="active" href="javascript:;">工艺标准详情</a>
+                                                        <a href="javascript:;">工艺标准信息</a>
+                                                    </div>
+                                                    <div class="clk-si-tab">
+                                                        <div class="clk-si-page active">
+                                                            <table>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td colspan="2"><span class="clk-weg">工作项标准：</span>塑料管扩配件</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><span class="clk-weg">目录编码：</span>1.1.5</td>
+                                                                    <td><span class="clk-weg">所属专业：</span>通信管道</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <div class="clk-si-page">
+                                                            <table>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td colspan="2"><span class="clk-weg">工作项标准：</span>塑料管扩配件</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><span class="clk-weg">目录编码：</span>1.1.5</td>
+                                                                    <td><span class="clk-weg">所属专业：</span>通信管道</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="clk-san-list">
+                                                <a class="clk-san" href="javascript:;">1.1.4 - 砖</a>
+                                                <div class="clk-si-box">
+                                                    <div class="clk-si-cotrol clear">
+                                                        <a class="active" href="javascript:;">工艺标准详情</a>
+                                                        <a href="javascript:;">工艺标准信息</a>
+                                                    </div>
+                                                    <div class="clk-si-tab">
+                                                        <div class="clk-si-page active">
+                                                            <table>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td colspan="2"><span class="clk-weg">工作项标准：</span>塑料管扩配件</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><span class="clk-weg">目录编码：</span>1.1.5</td>
+                                                                    <td><span class="clk-weg">所属专业：</span>通信管道</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <div class="clk-si-page">
+                                                            <table>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td colspan="2"><span class="clk-weg">工作项标准：</span>塑料管扩配件</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><span class="clk-weg">目录编码：</span>1.1.5</td>
+                                                                    <td><span class="clk-weg">所属专业：</span>通信管道</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="clk-san-list">
+                                                <a class="clk-san" href="javascript:;">1.1.5 - 塑料管扩配件</a>
+                                                <div class="clk-si-box">
+                                                    <div class="clk-si-cotrol clear">
+                                                        <a class="active" href="javascript:;">工艺标准详情</a>
+                                                        <a href="javascript:;">工艺标准信息</a>
+                                                    </div>
+                                                    <div class="clk-si-tab">
+                                                        <div class="clk-si-page active">
+                                                            <table>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td colspan="2"><span class="clk-weg">工作项标准：</span>塑料管扩配件</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><span class="clk-weg">目录编码：</span>1.1.5</td>
+                                                                    <td><span class="clk-weg">所属专业：</span>通信管道</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <div class="clk-si-page">
+                                                            <table>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td colspan="2"><span class="clk-weg">工作项标准：</span>塑料管扩配件</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><span class="clk-weg">目录编码：</span>1.1.5</td>
+                                                                    <td><span class="clk-weg">所属专业：</span>通信管道</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="clk-san-list">
+                                                <a class="clk-san" href="javascript:;">1.1.6 - 井盖、井框</a>
+                                                <div class="clk-si-box">
+                                                    <div class="clk-si-cotrol clear">
+                                                        <a class="active" href="javascript:;">工艺标准详情</a>
+                                                        <a href="javascript:;">工艺标准信息</a>
+                                                    </div>
+                                                    <div class="clk-si-tab">
+                                                        <div class="clk-si-page active">
+                                                            <table>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td colspan="2"><span class="clk-weg">工作项标准：</span>塑料管扩配件</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><span class="clk-weg">目录编码：</span>1.1.5</td>
+                                                                    <td><span class="clk-weg">所属专业：</span>通信管道</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <div class="clk-si-page">
+                                                            <table>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td colspan="2"><span class="clk-weg">工作项标准：</span>塑料管扩配件</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><span class="clk-weg">目录编码：</span>1.1.5</td>
+                                                                    <td><span class="clk-weg">所属专业：</span>通信管道</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="clk-san-list">
+                                                <a class="clk-san" href="javascript:;">1.1.7 - 钢材、钢管与铁件</a>
+                                                <div class="clk-si-box">
+                                                    <div class="clk-si-cotrol clear">
+                                                        <a class="active" href="javascript:;">工艺标准详情</a>
+                                                        <a href="javascript:;">工艺标准信息</a>
+                                                    </div>
+                                                    <div class="clk-si-tab">
+                                                        <div class="clk-si-page active">
+                                                            <table>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td colspan="2"><span class="clk-weg">工作项标准：</span>塑料管扩配件</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><span class="clk-weg">目录编码：</span>1.1.5</td>
+                                                                    <td><span class="clk-weg">所属专业：</span>通信管道</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <div class="clk-si-page">
+                                                            <table>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td colspan="2"><span class="clk-weg">工作项标准：</span>塑料管扩配件</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><span class="clk-weg">目录编码：</span>1.1.5</td>
+                                                                    <td><span class="clk-weg">所属专业：</span>通信管道</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clk-list">
+                                <a class="clk-yi active" href="javascript:;"><div class="arrow"></div>2 - 器材检验</a>
+                                <div class="clk-er-box">
+                                    <div class="clk-er-box-list">
+                                        <a class="clk-er active" href="javascript:;"><div class="arrow"></div>1.1 - 材料品种、规格、型号、数量及外观检查</a>
+                                        <div class="clk-san-box">
+                                            <div class="clk-san-list">
+                                                <a class="clk-san" href="javascript:;">1.1.1 - 水泥</a>
+                                                <div class="clk-si-box">
+                                                    <div class="clk-si-cotrol clear">
+                                                        <a class="active" href="javascript:;">工艺标准详情</a>
+                                                        <a href="javascript:;">工艺标准信息</a>
+                                                    </div>
+                                                    <div class="clk-si-tab">
+                                                        <div class="clk-si-page active">
+                                                            <table>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td colspan="2"><span class="clk-weg">工作项标准：</span>塑料管扩配件</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><span class="clk-weg">目录编码：</span>1.1.5</td>
+                                                                    <td><span class="clk-weg">所属专业：</span>通信管道</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <div class="clk-si-page">
+                                                            <table>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td colspan="2"><span class="clk-weg">工作项标准：</span>塑料管扩配件</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><span class="clk-weg">目录编码：</span>1.1.5</td>
+                                                                    <td><span class="clk-weg">所属专业：</span>通信管道</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="clk-san-list">
+                                                <a class="clk-san" href="javascript:;">1.1.4 - 砖</a>
+                                                <div class="clk-si-box">
+                                                    <div class="clk-si-cotrol clear">
+                                                        <a class="active" href="javascript:;">工艺标准详情</a>
+                                                        <a href="javascript:;">工艺标准信息</a>
+                                                    </div>
+                                                    <div class="clk-si-tab">
+                                                        <div class="clk-si-page active">
+                                                            <table>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td colspan="2"><span class="clk-weg">工作项标准：</span>塑料管扩配件</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><span class="clk-weg">目录编码：</span>1.1.5</td>
+                                                                    <td><span class="clk-weg">所属专业：</span>通信管道</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <div class="clk-si-page">
+                                                            <table>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td colspan="2"><span class="clk-weg">工作项标准：</span>塑料管扩配件</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><span class="clk-weg">目录编码：</span>1.1.5</td>
+                                                                    <td><span class="clk-weg">所属专业：</span>通信管道</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="clk-san-list">
+                                                <a class="clk-san" href="javascript:;">1.1.5 - 塑料管扩配件</a>
+                                                <div class="clk-si-box">
+                                                    <div class="clk-si-cotrol clear">
+                                                        <a class="active" href="javascript:;">工艺标准详情</a>
+                                                        <a href="javascript:;">工艺标准信息</a>
+                                                    </div>
+                                                    <div class="clk-si-tab">
+                                                        <div class="clk-si-page active">
+                                                            <table>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td colspan="2"><span class="clk-weg">工作项标准：</span>塑料管扩配件</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><span class="clk-weg">目录编码：</span>1.1.5</td>
+                                                                    <td><span class="clk-weg">所属专业：</span>通信管道</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <div class="clk-si-page">
+                                                            <table>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td colspan="2"><span class="clk-weg">工作项标准：</span>塑料管扩配件</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><span class="clk-weg">目录编码：</span>1.1.5</td>
+                                                                    <td><span class="clk-weg">所属专业：</span>通信管道</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="clk-san-list">
+                                                <a class="clk-san" href="javascript:;">1.1.6 - 井盖、井框</a>
+                                                <div class="clk-si-box">
+                                                    <div class="clk-si-cotrol clear">
+                                                        <a class="active" href="javascript:;">工艺标准详情</a>
+                                                        <a href="javascript:;">工艺标准信息</a>
+                                                    </div>
+                                                    <div class="clk-si-tab">
+                                                        <div class="clk-si-page active">
+                                                            <table>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td colspan="2"><span class="clk-weg">工作项标准：</span>塑料管扩配件</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><span class="clk-weg">目录编码：</span>1.1.5</td>
+                                                                    <td><span class="clk-weg">所属专业：</span>通信管道</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <div class="clk-si-page">
+                                                            <table>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td colspan="2"><span class="clk-weg">工作项标准：</span>塑料管扩配件</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><span class="clk-weg">目录编码：</span>1.1.5</td>
+                                                                    <td><span class="clk-weg">所属专业：</span>通信管道</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="clk-san-list">
+                                                <a class="clk-san" href="javascript:;">1.1.7 - 钢材、钢管与铁件</a>
+                                                <div class="clk-si-box">
+                                                    <div class="clk-si-cotrol clear">
+                                                        <a class="active" href="javascript:;">工艺标准详情</a>
+                                                        <a href="javascript:;">工艺标准信息</a>
+                                                    </div>
+                                                    <div class="clk-si-tab">
+                                                        <div class="clk-si-page active">
+                                                            <table>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td colspan="2"><span class="clk-weg">工作项标准：</span>塑料管扩配件</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><span class="clk-weg">目录编码：</span>1.1.5</td>
+                                                                    <td><span class="clk-weg">所属专业：</span>通信管道</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <div class="clk-si-page">
+                                                            <table>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td colspan="2"><span class="clk-weg">工作项标准：</span>塑料管扩配件</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><span class="clk-weg">目录编码：</span>1.1.5</td>
+                                                                    <td><span class="clk-weg">所属专业：</span>通信管道</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sfbz fr">
+                    <h5 class="cehua-h5">文档</h5>
+                    <div class="bgfff border-e1 word-list">
+                       <ul>
+                           <li class="word-page">
+                                <i></i>
+                                <p>项目管理平台通信服务模块系统编码</p>
+                                <a class="load-word word-a" href="#"></a>
+                                <a class="look-word word-a" href="#"></a>
+                           </li>
+                           <li class="word-page">
+                               <i></i>
+                               <p>项目管理平台通信服务模块系统编码</p>
+                               <a class="load-word word-a" href="#"></a>
+                               <a class="look-word word-a" href="#"></a>
+                           </li>
+                           <li class="word-page">
+                               <i></i>
+                               <p>项目管理平台通信服务模块系统编码</p>
+                               <a class="load-word word-a" href="#"></a>
+                               <a class="look-word word-a" href="#"></a>
+                           </li>
+                           <li class="excel-page">
+                               <i></i>
+                               <p>交换数据工程设计审核记录表</p>
+                               <a class="load-word word-a" href="#"></a>
+                               <a class="look-word word-a" href="#"></a>
+                           </li>
+                           <li class="excel-page">
+                               <i></i>
+                               <p>交换数据工程设计审核记录表</p>
+                               <a class="load-word word-a" href="#"></a>
+                               <a class="look-word word-a" href="#"></a>
+                           </li>
+                           <li class="excel-page">
+                               <i></i>
+                               <p>交换数据工程设计审核记录表</p>
+                               <a class="load-word word-a" href="#"></a>
+                               <a class="look-word word-a" href="#"></a>
+                           </li>
+                           <li class="excel-page">
+                               <i></i>
+                               <p>交换数据工程设计审核记录表</p>
+                               <a class="load-word word-a" href="#"></a>
+                               <a class="look-word word-a" href="#"></a>
+                           </li>
+                       </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="footer2 bg444">
+        <div class="w1435">
+            <div class="footer2-top clear">
+                <ul class="fl footer-top-list clear">
+                    <li><a href="#">公司概况</a></li>
+                    <li><a href="#">新闻动态</a></li>
+                    <li><a href="#">业务能力</a></li>
+                    <li><a href="#">企业文化</a></li>
+                    <li><a href="#">招标公示</a></li>
+                    <li><a href="#">投资者关系</a></li>
+                    <li><a href="#">后台管理</a></li>
+                    <li><a href="#">其他内容</a></li>
+                </ul>
+                <div class="guanzhu fr">
+                    <span class="fl">关注达安：</span>
+                    <!--微博-->
+                    <a class="weibo" data-cmd="tsina" href="#"><img src="images/10.png" alt=""/></a>
+                    <!--微信-->
+                    <a class="weixin" data-cmd="weixin" href="#"><img src="images/11.png" alt=""/></a>
+                    <!--qq空间-->
+                    <a class="tenxun" data-cmd="qzone" href="#"><img src="images/12.png" alt=""/></a>
+                </div>
+            </div>
+            <div class="footer2-bottom">
+                <div class="footer-bottom-link text-center">
+                    <span>广东达安项目管理股份有限公司 版权所有</span>
+                    <a href="#">粤ICP备12030366号-1粤ICP备12030366号-2</a>
+                    <a href="#"><img src="images/13.png" alt=""/>粤公网安备 33010802001567号</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
